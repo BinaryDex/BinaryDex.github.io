@@ -1,4 +1,4 @@
-let string = "octohook.xyz";
+let string = "> iris";
 let up = true;
 let count = 0;
 
