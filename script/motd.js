@@ -1,17 +1,7 @@
 let message = {
     messages: [
-        '4ever undetected ', 
-        'forever destroying project delta ', 
-        'octohook best scwipt >_< ', 
-        'destroying ars since release ', 
-        'https://www.youtube.com/watch?v=78i0lQRMLqg    ', 
-        '#1 project delta script since 2021 ',
-        'best femboys ever :3 ', 
-        'ice was here ', 
-        'forever unhittable ', 
-        'grrrrrrrrr ', 
-        'octohook > all ', 
-        'femboys >>> '
+        'placeholderrrrrr ', 
+        'placeholderrrrrrrrr '
     ],
     up: true,
     index: 0,
