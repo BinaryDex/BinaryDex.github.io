@@ -13,17 +13,13 @@
 <body>
     <div id="particles-js"></div>
     <audio loop src="/file/music.mp3" id="audio"></audio>
-    <script src="/script/title.js"></script>
-    <script src="/script/motd.js"></script>
-    <script src="/script/particles.js"></script>
-    <script src="/script/rythm.js"></script>
     <script src="/script/audio.js"></script>
 
     <div class="container_main" id="container_init">
-        <ul class="title">click to enter</ul>
+        <ul class="title" onclick="initGame()">click to enter</ul>
     </div>
 
-    <div class="container_main" id="container_main" style="visibility:hidden; width:50%;">
+    <div class="container_main" id="container_main" style="display: none; width: 50%;">
         <ul>
             <img class="img" src="/file/octopus_white.png">
         </ul>
