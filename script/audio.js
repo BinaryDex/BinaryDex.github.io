@@ -20,7 +20,7 @@ document.getElementById('container_init').addEventListener('click', function() {
     audio.play()
         .then(() => {
             start();
-            document.getElementById('container_init').style.visibility = 'hidden';
+            document.getElementById('container_init').style.display = 'none';
             document.getElementById('container_main').style.visibility = 'visible';
         })
         .catch(err => {});
