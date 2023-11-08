@@ -16,12 +16,12 @@ function start() {
     rythm.start();
 }
 
-document.getElementsByName('container_init')[0].addEventListener('click', function() {
+document.getElementById('container_init').addEventListener('click', function() {
     audio.play()
         .then(() => {
             start();
-            document.getElementsByName('container_init')[0].style.visibility = 'hidden';
-            document.getElementsByName('container_main')[0].style.visibility = 'visible';
+            document.getElementById('container_init').style.visibility = 'hidden';
+            document.getElementById('container_main').style.visibility = 'visible';
         })
         .catch(err => {});
 });
