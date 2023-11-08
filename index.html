@@ -1,43 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>loading...</title>
-    <link rel="stylesheet" href="/file/style.css">
-    <link rel="icon" href="/file/logo.png">
-    <meta content="h" property="og:title"/>
-    <meta content="h" property="og:description"/>
-    <meta content="h" property="og:url"/>
-    <meta content="/file/logo.png/" property="og:image"/>
-    <meta content="#a569ff" data-react-helmet="true" name="theme-color"/>
-</head>
-<body>
+
+    <head>
+        <title>loading...</title>
+        <link rel ="stylesheet" href="/file/style.css">
+        <link rel="icon" href="/file/logo.png">
+
+        <meta content="octohook.xyz" property="og:title"/>
+        <meta content="A premium and customizable script for roblox since 2021." property="og:description"/>
+        <meta content="https://www.octohook.xyz/" property="og:url"/>
+        <meta content="/file/logo.png/" property="og:image"/>
+        <meta content="#a569ff" data-react-helmet="true" name="theme-color"/>
+    </head>
+
     <div id="particles-js"></div>
     <audio loop src="/file/music.mp3" id="audio"></audio>
+    <script src="/script/title.js"></script>
+    <script src="/script/motd.js"></script>
+    <script src="/script/particles.js"></script>
+    <script src="/script/rythm.js"></script>
     <script src="/script/audio.js"></script>
 
-    <div class="container_main" id="container_init">
-        <ul class="title" onclick="start()">click to enter</ul>
-    </div>
+    <body>
+        <div class="container_main" name="container_init">
+            <ul class="title">click to enter</ul>
+        </div>
 
+        <div class="container_main" name="container_main" style="visibility:hidden; width:50%;">
+            <ul>
+                <img class='img' src="/file/octopus_white.png">
+            </ul>
 
-    <div class="container_main" id="container_main" style="display: none; width: 50%;">
-        <ul>
-            <img class="img" src="/file/octopus_white.png">
-        </ul>
+            <ul class="title">octohook.xyz -
+                <a class="index_message" id="index_message"></a>
+            </ul>
 
-        <ul class="title">
-            <a class="index_message" id="index_message"></a>
-        </ul>
-
-        <ul>
-            <a class="text" href="">discord</a>
-            /
-            <a class="text" href="/status">status</a>
-            /
-            <a class="text" href="/terms">terms</a>
-            /
-            <a class="text" href="/login">dashboard</a>
-        </ul>
-    </div>
-</body>
+            <ul>
+                <a class="text" href="https://discord.gg/octohook">discord</a>
+                /
+                <a class="text" href="/status">status</a>
+                /
+                <a class="text" href="/terms">terms</a>
+                /
+                <a class="text" href="/login">dashboard</a>
+            </ul>
+        </div>
+    </body>
+    
 </html>
